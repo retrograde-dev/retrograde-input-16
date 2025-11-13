@@ -3834,8 +3834,7 @@
                     "direction": "vertical",
                     "cols": 12,
                     "continuous": true,
-                    "group_padding": true,
-                    "padding": 2
+                    "group_padding": true
                 }
             ]
         },
@@ -3925,8 +3924,7 @@
                     "direction": "vertical",
                     "cols": 16,
                     "continuous": true,
-                    "group_padding": true,
-                    "padding": 2
+                    "group_padding": true
                 }
             ]
         }
