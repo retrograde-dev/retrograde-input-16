@@ -1,8 +1,8 @@
 {
     "name": "Retrograde Input 16",
-    "version": 1.0,
+    "version": "v1.1.0",
     "themes": {
-        "dark": {
+        "Dark": {
             "input_1": "#141020",
             "input_2": "#26243A",
             "input_3": "#393A56",
@@ -43,7 +43,7 @@
             "mouse_purple_1": "#B45EB3",
             "mouse_purple_2": "#622D68"
         },
-        "light": {
+        "Light": {
             "input_1": "#8D7F80",
             "input_2": "#A0938E",
             "input_3": "#CFC6B8",
@@ -86,7 +86,7 @@
         }
     },
     "inputs": {
-        "keyboard": {
+        "Keyboard": {
             "paths": [
                 "./input/keyboard_template.ora",
                 "./input/keyboard_variants.ora"
@@ -181,7 +181,7 @@
                         ]
                     ]
                 },
-                "Animated": {
+                "Animation": {
                     "frames": [
                         [
                             {"layer": "Key-0", "offset": [0, 0]},
@@ -203,7 +203,7 @@
                 }
             }
         },
-        "mouse": {
+        "Mouse": {
             "paths": [
                 "./input/mouse_template.ora",
                 "./input/mouse_variants.ora"
@@ -291,7 +291,7 @@
                         "offset": [0, -1]
                     }
                 ],
-                "Frame-Animated-0": [
+                "Frame-Animation-0": [
                     {
                         "variants": ["Right", "Left", "Middle"],
                         "alpha": 0.25
@@ -335,7 +335,7 @@
                         "alpha": 0.25
                     }
                 ],
-                "Frame-Animated-1": [
+                "Frame-Animation-1": [
                     {
                         "variants": ["Right", "Left", "Middle"],
                         "alpha": 0.5
@@ -379,7 +379,7 @@
                         "alpha": 0.5
                     }
                 ],
-                "Frame-Animated-2": [
+                "Frame-Animation-2": [
                     {
                         "variants": ["Right", "Left", "Middle"],
                         "alpha": 0.75
@@ -423,7 +423,7 @@
                         "alpha": 0.75
                     }
                 ],
-                "Frame-Animated-3": [
+                "Frame-Animation-3": [
                     {
                         "variants": ["Right", "Left", "Middle"],
                         "alpha": 1.0
@@ -479,17 +479,17 @@
                         ["Mouse", "Frame-Pressed"]
                     ]
                 },
-                "Animated": {
+                "Animation": {
                     "frames": [
-                        ["Mouse", "Frame-Animated-0"],
-                        ["Mouse", "Frame-Animated-1"],
-                        ["Mouse", "Frame-Animated-2"],
-                        ["Mouse", "Frame-Animated-3"]
+                        ["Mouse", "Frame-Animation-0"],
+                        ["Mouse", "Frame-Animation-1"],
+                        ["Mouse", "Frame-Animation-2"],
+                        ["Mouse", "Frame-Animation-3"]
                     ]
                 }
             }
         },
-        "joypad": {
+        "Joypad (Generic)": {
             "paths": [
                 "./input/joypad_template.ora",
                 "./input/joypad_variants.ora"
@@ -907,7 +907,7 @@
                         ["Input-3", "Frame-3"]
                     ]
                 },
-                "Animated": {
+                "Animation": {
                     "frames": [
                         ["Input-0", "Frame-0"],
                         ["Input-1", "Frame-1"],
@@ -917,7 +917,7 @@
                 }
             }
         },
-        "joypad_steam": {
+        "Joypad (Steam Deck)": {
             "paths": [
                 "./input/joypad_template.ora",
                 "./input/joypad_variants.ora",
@@ -1353,7 +1353,7 @@
                         ["Input-3", "Frame-3"]
                     ]
                 },
-                "Animated": {
+                "Animation": {
                     "frames": [
                         ["Input-0", "Frame-0"],
                         ["Input-1", "Frame-1"],
@@ -1363,7 +1363,7 @@
                 }
             }
         },
-        "joypad_xbox": {
+        "Joypad (XBox)": {
             "paths": [
                 "./input/joypad_template.ora",
                 "./input/joypad_variants.ora",
@@ -1798,7 +1798,7 @@
                         ["Input-3", "Frame-3"]
                     ]
                 },
-                "Animated": {
+                "Animation": {
                     "frames": [
                         ["Input-0", "Frame-0"],
                         ["Input-1", "Frame-1"],
@@ -1808,7 +1808,7 @@
                 }
             }
         },
-        "joypad_ps4": {
+        "Joypad (PS4)": {
             "paths": [
                 "./input/joypad_template.ora",
                 "./input/joypad_variants.ora",
@@ -2260,7 +2260,7 @@
                         ["Input-3", "Frame-3"]
                     ]
                 },
-                "Animated": {
+                "Animation": {
                     "frames": [
                         ["Input-0", "Frame-0"],
                         ["Input-1", "Frame-1"],
@@ -2270,7 +2270,7 @@
                 }
             }
         },
-        "joypad_ps5": {
+        "Joypad (PS5)": {
             "paths": [
                 "./input/joypad_template.ora",
                 "./input/joypad_variants.ora",
@@ -2710,7 +2710,7 @@
                         ["Input-3", "Frame-3"]
                     ]
                 },
-                "Animated": {
+                "Animation": {
                     "frames": [
                         ["Input-0", "Frame-0"],
                         ["Input-1", "Frame-1"],
@@ -2720,7 +2720,7 @@
                 }
             }
         },
-        "joypad_nintendo_joycons": {
+        "Joypad (Nintendo Joycons)": {
             "paths": [
                 "./input/joypad_template.ora",
                 "./input/joypad_variants.ora",
@@ -3168,7 +3168,7 @@
                         ["Input-3", "Frame-3"]
                     ]
                 },
-                "Animated": {
+                "Animation": {
                     "frames": [
                         ["Input-0", "Frame-0"],
                         ["Input-1", "Frame-1"],
@@ -3178,7 +3178,7 @@
                 }
             }
         },
-        "joypad_nintendo_pro": {
+        "Joypad (Nintendo Pro)": {
             "paths": [
                 "./input/joypad_template.ora",
                 "./input/joypad_variants.ora",
@@ -3609,7 +3609,7 @@
                         ["Input-3", "Frame-3"]
                     ]
                 },
-                "Animated": {
+                "Animation": {
                     "frames": [
                         ["Input-0", "Frame-0"],
                         ["Input-1", "Frame-1"],
@@ -3621,306 +3621,404 @@
         }
     },
     "outputs": {
-        "Images": {
-            "inputs": [
-                "keyboard",
-                "mouse",
-                "joypad",
-                "joypad_steam",
-                "joypad_xbox",
-                "joypad_ps4",
-                "joypad_ps5",
-                "joypad_nintendo_joycons",
-                "joypad_nintendo_pro"
-            ],
-            "themes": [
-                "dark",
-                "light"
-            ],
-            "path": "./output/[[theme]]/[[input]]",
+        "Normal": {
+            "path": "./output/[[theme]]/[[input]]/[[template]]",
             "configs": [
                 {
                     "template": "Normal",
-                    "path": "/[[template]]_[[direction]]/[[variant]]",
+                    "path": "/[[variant]]",
                     "direction": "horizontal"
-                },
+                }
+            ]
+        },
+        "Pressed": {
+            "path": "./output/[[theme]]/[[input]]/[[template]]",
+            "configs": [
                 {
                     "template": "Pressed",
-                    "path": "/[[template]]_[[direction]]/[[variant]]",
+                    "path": "/[[variant]]",
                     "direction": "horizontal"
-                },
+                }
+            ]
+        },
+        "Horizontal Animation": {
+            "path": "./output/[[theme]]/[[input]]/[[direction]]_[[template]]",
+            "configs": [
                 {
-                    "template": "Animated",
-                    "path": "/[[template]]_[[direction]]/[[variant]]",
+                    "template": "Animation",
+                    "path": "/[[variant]]",
                     "direction": "horizontal"
-                },
+                }
+            ]
+        },
+        "Vertical Animation": {
+            "path": "./output/[[theme]]/[[input]]/[[direction]]_[[template]]",
+            "configs": [
                 {
-                    "template": "Normal",
-                    "path": "/[[template]]_[[direction]]/[[variant]]",
-                    "direction": "vertical"
-                },
-                {
-                    "template": "Pressed",
-                    "path": "/[[template]]_[[direction]]/[[variant]]",
-                    "direction": "vertical"
-                },
-                {
-                    "template": "Animated",
-                    "path": "/[[template]]_[[direction]]/[[variant]]",
+                    "template": "Animation",
+                    "path": "/[[variant]]",
                     "direction": "vertical"
                 }
             ]
         },
         "Frames": {
-            "inputs": [
-                "keyboard",
-                "mouse",
-                "joypad",
-                "joypad_steam",
-                "joypad_xbox",
-                "joypad_ps4",
-                "joypad_ps5",
-                "joypad_nintendo_joycons",
-                "joypad_nintendo_pro"
-            ],
-            "themes": [
-                "dark",
-                "light"
-            ],
-            "path": "./output/[[theme]]/[[input]]",
+            "path": "./output/[[theme]]/[[input]]/[[template]]_frames",
             "configs": [
                 {
                     "mode": "frames",
-                    "template": "Animated",
-                    "path": "/[[template]]_frames/[[variant]]_[[frame]]",
+                    "template": "Animation",
+                    "path": "/[[variant]]_[[frame]]",
                     "start_index": 0
                 }
             ]
         },
-        "Sheet Directional": {
-            "inputs": [
-                "keyboard",
-                "mouse",
-                "joypad",
-                "joypad_steam",
-                "joypad_xbox",
-                "joypad_ps4",
-                "joypad_ps5",
-                "joypad_nintendo_joycons",
-                "joypad_nintendo_pro"
-            ],
-            "themes": [
-                "dark",
-                "light"
-            ],
-            "path": "./output/[[theme]]/[[input]]",
+        "Horizontal Normal Group Sheets": {
+            "path": "./output/[[theme]]/[[input]]/[[direction]]_[[template]]_sheets",
             "configs": [
                 {
                     "mode": "sheet",
                     "template": "Normal",
-                    "path": "/[[template]]_[[direction]]_[[group]]",
+                    "path": "/[[group]]",
                     "direction": "horizontal"
-                },
+                }
+            ]
+        },
+        "Horizontal Pressed Group Sheets": {
+            "path": "./output/[[theme]]/[[input]]/[[direction]]_[[template]]_sheets",
+            "configs": [
                 {
                     "mode": "sheet",
                     "template": "Pressed",
-                    "path": "/[[template]]_[[direction]]_[[group]]",
+                    "path": "/[[group]]",
                     "direction": "horizontal"
-                },
+                }
+            ]
+        },
+        "Horizontal Animation Group Sheets": {
+            "path": "./output/[[theme]]/[[input]]/[[direction]]_[[template]]_sheets",
+            "configs": [
                 {
                     "mode": "sheet",
-                    "template": "Animated",
-                    "path": "/[[template]]_[[direction]]_[[group]]",
+                    "template": "Animation",
+                    "path": "/[[group]]",
                     "direction": "horizontal"
-                },
+                }
+            ]
+        },
+        "Vertical Normal Group Sheets": {
+            "path": "./output/[[theme]]/[[input]]/[[direction]]_[[template]]_sheets",
+            "configs": [
                 {
                     "mode": "sheet",
                     "template": "Normal",
-                    "path": "/[[template]]_[[direction]]_[[group]]",
-                    "direction": "vertical"
-                },
-                {
-                    "mode": "sheet",
-                    "template": "Pressed",
-                    "path": "/[[template]]_[[direction]]_[[group]]",
-                    "direction": "vertical"
-                },
-                {
-                    "mode": "sheet",
-                    "template": "Animated",
-                    "path": "/[[template]]_[[direction]]_[[group]]",
+                    "path": "/[[group]]",
                     "direction": "vertical"
                 }
             ]
         },
-        "Sheet Tiled Keyboard and Mouse": {
-            "inputs": [
-                "keyboard",
-                "mouse"
-            ],
-            "themes": [
-                "dark",
-                "light"
-            ],
-            "path": "./output/[[theme]]/[[input]]",
+        "Vertical Pressed Group Sheets": {
+            "path": "./output/[[theme]]/[[input]]/[[direction]]_[[template]]_sheets",
             "configs": [
                 {
                     "mode": "sheet",
+                    "template": "Pressed",
+                    "path": "/[[group]]",
+                    "direction": "vertical"
+                }
+            ]
+        },
+        "Vertical Animation Group Sheets": {
+            "path": "./output/[[theme]]/[[input]]/[[direction]]_[[template]]_sheets",
+            "configs": [
+                {
+                    "mode": "sheet",
+                    "template": "Animation",
+                    "path": "/[[group]]",
+                    "direction": "vertical"
+                }
+            ]
+        },
+        "Horiztonal Normal Sheet": {
+            "path": "./output/[[theme]]/[[input]]",
+            "configs": [
+                {
+                    "inputs": [
+                        "Keyboard",
+                        "Mouse"
+                    ],
+                    "mode": "sheet",
                     "template": "Normal",
-                    "path": "/[[template]]_[[direction]]",
+                    "path": "/[[direction]]_[[template]]",
                     "direction": "horizontal",
                     "rows": 12,
                     "continuous": true,
                     "group_padding": true
                 },
                 {
+                    "inputs": [
+                        "Joypad (Generic)",
+                        "Joypad (Steam Deck)",
+                        "Joypad (XBox)",
+                        "Joypad (PS4)",
+                        "Joypad (PS5)",
+                        "Joypad (Nintendo Joycons)",
+                        "Joypad (Nintendo Pro)"
+                    ],
+                    "mode": "sheet",
+                    "template": "Normal",
+                    "path": "/[[direction]]_[[template]]",
+                    "direction": "horizontal",
+                    "rows": 16,
+                    "continuous": true,
+                    "group_padding": true
+                }
+            ]
+        },
+        "Horizontal Pressed Sheet": {
+            "path": "./output/[[theme]]/[[input]]",
+            "configs": [
+                {
+                    "inputs": [
+                        "Keyboard",
+                        "Mouse"
+                    ],
                     "mode": "sheet",
                     "template": "Pressed",
-                    "path": "/[[template]]_[[direction]]",
+                    "path": "/[[direction]]_[[template]]",
                     "direction": "horizontal",
                     "rows": 12,
                     "continuous": true,
                     "group_padding": true
                 },
                 {
+                    "inputs": [
+                        "Joypad (Generic)",
+                        "Joypad (Steam Deck)",
+                        "Joypad (XBox)",
+                        "Joypad (PS4)",
+                        "Joypad (PS5)",
+                        "Joypad (Nintendo Joycons)",
+                        "Joypad (Nintendo Pro)"
+                    ],
                     "mode": "sheet",
-                    "template": "Animated",
-                    "path": "/[[template]]_[[direction]]",
+                    "template": "Pressed",
+                    "path": "/[[direction]]_[[template]]",
+                    "direction": "horizontal",
+                    "rows": 16,
+                    "continuous": true,
+                    "group_padding": true
+                }
+            ]
+        },
+        "Horizontal Animation Sheet": {
+            "path": "./output/[[theme]]/[[input]]",
+            "configs": [
+                {
+                    "inputs": [
+                        "Keyboard",
+                        "Mouse"
+                    ],
+                    "mode": "sheet",
+                    "template": "Animation",
+                    "path": "/[[direction]]_[[template]]",
                     "direction": "horizontal",
                     "rows": 12,
                     "continuous": true,
                     "group_padding": true
                 },
                 {
+                    "inputs": [
+                        "Joypad (Generic)",
+                        "Joypad (Steam Deck)",
+                        "Joypad (XBox)",
+                        "Joypad (PS4)",
+                        "Joypad (PS5)",
+                        "Joypad (Nintendo Joycons)",
+                        "Joypad (Nintendo Pro)"
+                    ],
+                    "mode": "sheet",
+                    "template": "Animation",
+                    "path": "/[[direction]]_[[template]]",
+                    "direction": "horizontal",
+                    "rows": 16,
+                    "continuous": true,
+                    "group_padding": true
+                }
+            ]
+        },
+        "Vertical Normal Sheet": {
+            "path": "./output/[[theme]]/[[input]]",
+            "configs": [
+                {
+                    "inputs": [
+                        "Keyboard",
+                        "Mouse"
+                    ],
                     "mode": "sheet",
                     "template": "Normal",
-                    "path": "/[[template]]_[[direction]]",
+                    "path": "/[[direction]]_[[template]]",
                     "direction": "vertical",
                     "cols": 12,
                     "continuous": true,
                     "group_padding": true
                 },
                 {
+                    "inputs": [
+                        "Joypad (Generic)",
+                        "Joypad (Steam Deck)",
+                        "Joypad (XBox)",
+                        "Joypad (PS4)",
+                        "Joypad (PS5)",
+                        "Joypad (Nintendo Joycons)",
+                        "Joypad (Nintendo Pro)"
+                    ],
+                    "mode": "sheet",
+                    "template": "Normal",
+                    "path": "/[[direction]]_[[template]]",
+                    "direction": "vertical",
+                    "cols": 16,
+                    "continuous": true,
+                    "group_padding": true
+                }
+            ]
+        },
+        "Vertical Pressed Sheet": {
+            "path": "./output/[[theme]]/[[input]]",
+            "configs": [
+                {
+                    "inputs": [
+                        "Keyboard",
+                        "Mouse"
+                    ],
                     "mode": "sheet",
                     "template": "Pressed",
-                    "path": "/[[template]]_[[direction]]",
+                    "path": "/[[direction]]_[[template]]",
                     "direction": "vertical",
                     "cols": 12,
                     "continuous": true,
                     "group_padding": true
                 },
                 {
+                    "inputs": [
+                        "Joypad (Generic)",
+                        "Joypad (Steam Deck)",
+                        "Joypad (XBox)",
+                        "Joypad (PS4)",
+                        "Joypad (PS5)",
+                        "Joypad (Nintendo Joycons)",
+                        "Joypad (Nintendo Pro)"
+                    ],
                     "mode": "sheet",
-                    "template": "Animated",
-                    "path": "/[[template]]_[[direction]]",
+                    "template": "Pressed",
+                    "path": "/[[direction]]_[[template]]",
+                    "direction": "vertical",
+                    "cols": 16,
+                    "continuous": true,
+                    "group_padding": true
+                }
+            ]
+        },
+        "Vertical Animation Sheet": {
+            "path": "./output/[[theme]]/[[input]]",
+            "configs": [
+                {
+                    "inputs": [
+                        "Keyboard",
+                        "Mouse"
+                    ],
+                    "mode": "sheet",
+                    "template": "Animation",
+                    "path": "/[[direction]]_[[template]]",
                     "direction": "vertical",
                     "cols": 24,
                     "continuous": ["Keys-40x16", "Wheel-16x16"],
                     "group_padding": true
                 },
                 {
+                    "inputs": [
+                        "Joypad (Generic)",
+                        "Joypad (Steam Deck)",
+                        "Joypad (XBox)",
+                        "Joypad (PS4)",
+                        "Joypad (PS5)",
+                        "Joypad (Nintendo Joycons)",
+                        "Joypad (Nintendo Pro)"
+                    ],
+                    "mode": "sheet",
+                    "template": "Animation",
+                    "path": "/[[direction]]_[[template]]",
+                    "direction": "vertical",
+                    "cols": 16,
+                    "continuous": true,
+                    "group_padding": true
+                }
+            ]
+        },
+        "Horizontal Animation Frame Sheets": {
+            "path": "./output/[[theme]]/[[input]]/[[direction]]_[[template]]_frame_sheets",
+            "configs": [
+                {
+                    "inputs": [
+                        "Keyboard",
+                        "Mouse"
+                    ],
                     "mode": "sheet_frames",
-                    "template": "Animated",
-                    "path": "/[[template]]_[[direction]]_frames/[[frame]]",
+                    "template": "Animation",
+                    "path": "/[[frame]]",
                     "direction": "horizontal",
                     "rows": 12,
                     "continuous": true,
                     "group_padding": true
                 },
                 {
+                    "inputs": [
+                        "Joypad (Generic)",
+                        "Joypad (Steam Deck)",
+                        "Joypad (XBox)",
+                        "Joypad (PS4)",
+                        "Joypad (PS5)",
+                        "Joypad (Nintendo Joycons)",
+                        "Joypad (Nintendo Pro)"
+                    ],
                     "mode": "sheet_frames",
-                    "template": "Animated",
-                    "path": "/[[template]]_[[direction]]_frames/[[frame]]",
-                    "direction": "vertical",
-                    "cols": 12,
+                    "template": "Animation",
+                    "path": "/[[frame]]",
+                    "direction": "horizontal",
+                    "rows": 16,
                     "continuous": true,
                     "group_padding": true
                 }
             ]
         },
-        "Sheet Tiled Joypads": {
-            "inputs": [
-                "joypad",
-                "joypad_steam",
-                "joypad_xbox",
-                "joypad_ps4",
-                "joypad_ps5",
-                "joypad_nintendo_joycons",
-                "joypad_nintendo_pro"
-            ],
-            "themes": [
-                "dark",
-                "light"
-            ],
-            "path": "./output/[[theme]]/[[input]]",
+        "Vertical Animation Frame Sheets": {
+            "path": "./output/[[theme]]/[[input]]/[[direction]]_[[template]]_frame_sheets",
             "configs": [
                 {
-                    "mode": "sheet",
-                    "template": "Normal",
-                    "path": "/[[template]]_[[direction]]",
-                    "direction": "horizontal",
-                    "rows": 16,
-                    "continuous": true,
-                    "group_padding": true
-                },
-                {
-                    "mode": "sheet",
-                    "template": "Pressed",
-                    "path": "/[[template]]_[[direction]]",
-                    "direction": "horizontal",
-                    "rows": 16,
-                    "continuous": true,
-                    "group_padding": true
-                },
-                {
-                    "mode": "sheet",
-                    "template": "Animated",
-                    "path": "/[[template]]_[[direction]]",
-                    "direction": "horizontal",
-                    "rows": 16,
-                    "continuous": true,
-                    "group_padding": true
-                },
-                {
-                    "mode": "sheet",
-                    "template": "Normal",
-                    "path": "/[[template]]_[[direction]]",
-                    "direction": "vertical",
-                    "cols": 16,
-                    "continuous": true,
-                    "group_padding": true
-                },
-                {
-                    "mode": "sheet",
-                    "template": "Pressed",
-                    "path": "/[[template]]_[[direction]]",
-                    "direction": "vertical",
-                    "cols": 16,
-                    "continuous": true,
-                    "group_padding": true
-                },
-                {
-                    "mode": "sheet",
-                    "template": "Animated",
-                    "path": "/[[template]]_[[direction]]",
-                    "direction": "vertical",
-                    "cols": 16,
-                    "continuous": true,
-                    "group_padding": true
-                },
-                {
+                    "inputs": [
+                        "Keyboard",
+                        "Mouse"
+                    ],
                     "mode": "sheet_frames",
-                    "template": "Animated",
-                    "path": "/[[template]]_[[direction]]_frames/[[frame]]",
-                    "direction": "horizontal",
-                    "rows": 16,
+                    "template": "Animation",
+                    "path": "/[[frame]]",
+                    "direction": "vertical",
+                    "cols": 12,
                     "continuous": true,
                     "group_padding": true
                 },
                 {
+                    "inputs": [
+                        "Joypad (Generic)",
+                        "Joypad (Steam Deck)",
+                        "Joypad (XBox)",
+                        "Joypad (PS4)",
+                        "Joypad (PS5)",
+                        "Joypad (Nintendo Joycons)",
+                        "Joypad (Nintendo Pro)"
+                    ],
                     "mode": "sheet_frames",
-                    "template": "Animated",
-                    "path": "/[[template]]_[[direction]]_frames/[[frame]]",
+                    "template": "Animation",
+                    "path": "/[[frame]]",
                     "direction": "vertical",
                     "cols": 16,
                     "continuous": true,
