@@ -2799,24 +2799,24 @@
                 "Shoulder-Buttons-24x16": {
                     "size": [24, 16],
                     "variants": [
-                        "R1", "L1"
+                        "R", "L"
                     ],
                     "references": {
                         "Input-0": {
-                            "R1": "R-Button-0",
-                            "L1": "L-Button-0"
+                            "R": "R-Button-0",
+                            "L": "L-Button-0"
                         },
                         "Input-1": {
-                            "R1": "R-Button-1",
-                            "L1": "L-Button-1"
+                            "R": "R-Button-1",
+                            "L": "L-Button-1"
                         },
                         "Input-2": {
-                            "R1": "R-Button-2",
-                            "L1": "L-Button-2"
+                            "R": "R-Button-2",
+                            "L": "L-Button-2"
                         },
                         "Input-3": {
-                            "R1": "R-Button-3",
-                            "L1": "L-Button-3"
+                            "R": "R-Button-3",
+                            "L": "L-Button-3"
                         }
                     },
                     "break": true
@@ -2824,31 +2824,31 @@
                 "Triggers-20x16": {
                     "size": [20, 16],
                     "variants": [
-                        "R2", "L2"
+                        "ZR", "ZL"
                     ],
                     "references": {
                         "Input-0": {
-                            "R2": "R-Trigger-0",
-                            "L2": "L-Trigger-0"
+                            "ZR": "R-Trigger-0",
+                            "ZL": "L-Trigger-0"
                         },
                         "Input-1": {
-                            "R2": "R-Trigger-1",
-                            "L2": "L-Trigger-1"
+                            "ZR": "R-Trigger-1",
+                            "ZL": "L-Trigger-1"
                         },
                         "Input-2": {
-                            "R2": "R-Trigger-2",
-                            "L2": "L-Trigger-2"
+                            "ZR": "R-Trigger-2",
+                            "ZL": "L-Trigger-2"
                         },
                         "Input-3": {
-                            "R2": "R-Trigger-3",
-                            "L2": "L-Trigger-3"
+                            "ZR": "R-Trigger-3",
+                            "ZL": "L-Trigger-3"
                         }
                     }
                 },
                 "Buttons-Square-24x16": {
                     "size": [24, 16],
                     "variants": [
-                        "R3", "L3"
+                        "RS", "LS"
                     ],
                     "references": {
                         "Input-0": "Button-Square-24x16-0",
@@ -3248,24 +3248,24 @@
                 "Shoulder-Buttons-24x16": {
                     "size": [24, 16],
                     "variants": [
-                        "R1", "L1"
+                        "R", "L"
                     ],
                     "references": {
                         "Input-0": {
-                            "R1": "R-Button-0",
-                            "L1": "L-Button-0"
+                            "R": "R-Button-0",
+                            "L": "L-Button-0"
                         },
                         "Input-1": {
-                            "R1": "R-Button-1",
-                            "L1": "L-Button-1"
+                            "R": "R-Button-1",
+                            "L": "L-Button-1"
                         },
                         "Input-2": {
-                            "R1": "R-Button-2",
-                            "L1": "L-Button-2"
+                            "R": "R-Button-2",
+                            "L": "L-Button-2"
                         },
                         "Input-3": {
-                            "R1": "R-Button-3",
-                            "L1": "L-Button-3"
+                            "R": "R-Button-3",
+                            "L": "L-Button-3"
                         }
                     },
                     "break": true
@@ -3273,31 +3273,31 @@
                 "Triggers-20x16": {
                     "size": [20, 16],
                     "variants": [
-                        "R2", "L2"
+                        "ZR", "ZL"
                     ],
                     "references": {
                         "Input-0": {
-                            "R2": "R-Trigger-0",
-                            "L2": "L-Trigger-0"
+                            "ZR": "R-Trigger-0",
+                            "ZL": "L-Trigger-0"
                         },
                         "Input-1": {
-                            "R2": "R-Trigger-1",
-                            "L2": "L-Trigger-1"
+                            "ZR": "R-Trigger-1",
+                            "ZL": "L-Trigger-1"
                         },
                         "Input-2": {
-                            "R2": "R-Trigger-2",
-                            "L2": "L-Trigger-2"
+                            "ZR": "R-Trigger-2",
+                            "ZL": "L-Trigger-2"
                         },
                         "Input-3": {
-                            "R2": "R-Trigger-3",
-                            "L2": "L-Trigger-3"
+                            "ZR": "R-Trigger-3",
+                            "ZL": "L-Trigger-3"
                         }
                     }
                 },
                 "Buttons-Square-24x16": {
                     "size": [24, 16],
                     "variants": [
-                        "R3", "L3"
+                        "RS", "LS"
                     ],
                     "references": {
                         "Input-0": "Button-Square-24x16-0",
